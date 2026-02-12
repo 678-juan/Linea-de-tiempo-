@@ -4,3 +4,22 @@ body {
     text-align: center;
     padding-top: 24px;
 }
+
+table {
+    margin: 24px auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 900px;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
