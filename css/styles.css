@@ -2,7 +2,7 @@ body {
     margin: 60px ;
     min-height: 100vh;
     text-align: center;
-    padding-top: 24px;
+    padding-top: 0px;
 }
 
 table {
@@ -22,4 +22,43 @@ td {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.page-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.page-table td {
+    border: none;
+    padding: 0;
+}
+
+.page-banner {
+    background: #f2f2f2;
+    font-weight: 700;
+    padding: 24px;
+    margin-bottom: 12px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.image-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.ad-image {
+    width: 120px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.main-image {
+    max-width: 520px;
+    width: 100%;
 }
